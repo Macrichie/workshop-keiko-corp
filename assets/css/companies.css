@@ -1,0 +1,18 @@
+.companies-wrapper {
+    text-align: center;
+    max-width: var(--centerColumn);
+    margin: 0 auto;
+}
+
+.company-logos {
+    display: grid;
+    /* short-cut for rows and columns e.g 2row / 3columns*/
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    place-items: center;
+    margin-top: 2.5rem;
+}
+
+.company-logos > img {
+    width: 100px;
+}
+
